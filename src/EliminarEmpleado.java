@@ -18,7 +18,7 @@ public class EliminarEmpleado {
             int n = ps.executeUpdate();
             System.out.println("Empleado borrado exitosamente " + n);
         }catch(SQLException e){
-            System.out.println("Error al borrar de la tabla " + e.getMessage());
+            System.out.println("Error al borrar de la tabla " + e.getMessage()); //controlamos errores
         }
     }
 }
